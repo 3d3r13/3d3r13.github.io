@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Página de Inversión</title>
+</head>
+<body>
+    <h1>Bienvenido a nuestra página de inversión</h1>
+    <p>Aquí encontrarás las últimas noticias y tendencias sobre inversión.</p>
+
+    <h2>Suscríbete a nuestro boletín</h2>
+    <form action="/suscribirse" method="post">
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <input type="submit" value="Suscribirse">
+    </form>
+</body>
+</html>
