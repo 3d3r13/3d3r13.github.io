@@ -1,16 +1,36 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Página de Inversión</title>
+    <title>Tu Página de Inversión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a nuestra página de inversión</h1>
-    <p>Aquí encontrarás las últimas noticias y tendencias sobre inversión.</p>
+    <header>
+        <h1>Bienvenido a nuestra página de inversión</h1>
+    </header>
 
-    <h2>Suscríbete a nuestro boletín</h2>
-    <form action="/suscribirse" method="post">
-        <label for="email">Correo Electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <input type="submit" value="Suscribirse">
-    </form>
+    <main>
+        <section>
+            <h2>Últimas noticias de inversión</h2>
+            <!-- Aquí puedes agregar contenido dinámico -->
+        </section>
+
+        <section>
+            <h2>Suscríbete a nuestro boletín</h2>
+            <form action="/suscribirse" method="post">
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <input type="submit" value="Suscribirse">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Tu Página de Inversión</p>
+    </footer>
 </body>
 </html>
